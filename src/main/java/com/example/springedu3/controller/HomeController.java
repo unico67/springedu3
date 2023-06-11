@@ -20,7 +20,7 @@ public class HomeController {
     FriendDaoService service;
     @GetMapping("/hello")
     public String hello() {
-        return "환영합니다~~~ HomeController 의 처리 결과입니다.!!!!";
+        return "환영합니다~~~ HomeController 의 처리 결과입니다.@@";
     }
     @GetMapping("/user")
     public String user() {
